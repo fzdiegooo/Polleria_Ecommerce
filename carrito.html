@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Polleria El Pollon</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/307148e55f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/carta.js"></script>
+    <script src="./js/carritoIndex.js" defer></script>
+    <script src="./js/carrito.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">
+          <img
+            id="logo-nav"
+            src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_100,q_80,fl_lossy,dpr_2.0,c_fit,f_auto,h_100/deyjgazb6amczn61ongw"
+          />
+        </a>
+        <ul class="nav-buttons">
+          <li><a class="buttons" href="./index.html">Inicio</a></li>
+          <li><a class="buttons" href="">Sobre Nosotros</a></li>
+          <li><a class="buttons" href="#carta-container-title">Carta</a></li>
+        </ul>
+        <a id="btn-carrito">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="cuenta-carrito">0</span>
+        </a>
+      </nav>
+    </header>
+    <main id="carrito-main">
+      <div id="carrito-wrapper">
+        <div id="productos-container">
+
+        </div>
+        <div id="orden-pedido-container">
+          <div class="cuenta">
+            <p>Productos(<span id="cantidad-productos">0</span>)</p>
+            <p>S/ <span id="subtotal-productos">0</span></p>
+          </div>
+          <div class="cuenta">
+            <p>IGV</p>
+            <p>S/ <span id="igv-productos">0</span></p>
+          </div>
+          <div class="cuenta">
+            <p>Total</p>
+            <p>S/ <span id="total-productos">0</span></p>
+          </div>
+          <button id="continuar-compra">Continuar Compra</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
