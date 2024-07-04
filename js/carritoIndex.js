@@ -71,7 +71,7 @@ function calcularTotal(total) {
 btnContinuarCompra.addEventListener("click", () => {
   const productos = JSON.parse(localStorage.getItem("productos"));
   if (productos && productos.length > 0) {
-    location.href = "../ordenCompra.html";
+    location.href = "./ordenCompra.html";
   } else {
     alert("Cariito Vacio");
   }
