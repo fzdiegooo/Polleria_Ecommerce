@@ -1,4 +1,5 @@
 const productosContainer = document.getElementById("productos-container");
+const btnContinuarCompra = document.getElementById("continuar-compra");
 
 function insertarCarrito() {
   let total = 0;
@@ -66,3 +67,15 @@ function calcularTotal(total) {
   igvProductos.innerHTML = `${calcularIgv.toFixed(2)}`;
   totalProductos.innerHTML = `${calcularTotal.toFixed(2)}`;
 }
+
+btnContinuarCompra.addEventListener("click", () => {
+  const productos = JSON.parse(localStorage.getItem("productos"));
+  if (productos && productos.length > 0) {
+    location.href = "../ordenCompra.html";
+  } else {
+    alert("Cariito Vacio");
+  }
+});
+
+
+

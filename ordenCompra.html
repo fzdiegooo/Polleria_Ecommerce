@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Polleria El Pollon</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/307148e55f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/carta.js"></script>
+    <script src="./js/carritoIndex.js" defer></script>
+    <script src="./js/carrito.js" defer></script>
+    <script src="./js/infoCliente.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">
+          <img
+            id="logo-nav"
+            src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_100,q_80,fl_lossy,dpr_2.0,c_fit,f_auto,h_100/deyjgazb6amczn61ongw"
+          />
+        </a>
+        <ul class="nav-buttons">
+          <li><a class="buttons" href="./index.html">Inicio</a></li>
+          <li><a class="buttons" href="">Sobre Nosotros</a></li>
+          <li><a class="buttons" href="#carta-container-title">Carta</a></li>
+        </ul>
+        <a href="carrito.html" id="btn-carrito">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="cuenta-carrito">0</span>
+        </a>
+      </nav>
+    </header>
+    <main id="orden-compra-main">
+      <div id="orden-compra-container">
+        <div id="informacion-cliente">
+          <p>Finalizar compra</p>
+          <label for="">Tipo de comprobante</label>
+          <form id="comprobante-form" class="tipo-comprobante-container">
+            <label class="input-radio" for="btn-boleta">
+              <input
+                checked
+                type="radio"
+                name="tipo-comprobante"
+                value="boleta"
+                id="btn-boleta"
+              />Boleta
+            </label>
+            <label class="input-radio" for="btn-factura">
+              <input
+                type="radio"
+                name="tipo-comprobante"
+                value="factura"
+                id="btn-factura"
+              />Factura
+            </label>
+          </form>
+          <form action="" class="formulario" id="formulario-boleta">
+            <div class="input-container">
+              <label for="">Nombre:</label>
+              <input type="text" />
+            </div>
+            <div class="input-container">
+              <label for="">Apellidos:</label>
+              <input type="text" />
+            </div>
+            <div class="input-container" id="input-tipo-documento">
+              <label for="">Tipo de documento:</label>
+              <select>
+                <option disabled>Tipo de documento</option>
+                <option value="">DNI</option>
+                <option value="">Carné extranjería</option>
+                <option value="">Pasaporte</option>
+              </select>
+            </div>
+            <div class="input-container" id="input-numero-documento">
+              <label for="">N° de documento:</label>
+              <input type="text" />
+            </div>
+            <div class="input-container" id="input-ruc">
+              <label for="">RUC:</label>
+              <input type="text" />
+            </div>
+            <div class="input-container" id="input-razon-social">
+              <label for="">Razón social:</label>
+              <input type="text" />
+            </div>
+            <div class="input-container">
+              <label for="">Correo:</label>
+              <input type="text" />
+            </div>
+            <div class="input-container">
+              <label for="">Celular:</label>
+              <input type="text" />
+            </div>
+            <div class="input-container">
+              <label for="">Forma de pago:</label>
+              <input type="text" />
+            </div>
+          </form>
+        </div>
+        <div id="informacion-compra">
+          <p>Resumen Compra</p>
+          <div id="resumen-compra">
+            
+            <div class="divisor"></div>
+
+          </div>
+          <div id="resumen-orden-pedido-container">
+            <div class="divisor"></div>
+            <div class="cuenta">
+              <p>Subtotal</p>
+              <p>S/ <span id="subtotal-productos">0</span></p>
+            </div>
+            <div class="cuenta">
+              <p>IGV</p>
+              <p>S/ <span id="igv-productos">0</span></p>
+            </div>
+            <div class="cuenta">
+              <p>Total</p>
+              <p>S/ <span id="total-productos">0</span></p>
+            </div>
+          </div>
+          <button class="btn-continuar">Confirmar Compra</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
