@@ -22,35 +22,35 @@ const carta = [
     },
     {
         id: 4,
-        img: "https://peru21.pe/resizer/wHwI08ga06qYXmP93jFEJwmGnf0=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/UM7KUSCNXFED7IRS6DKSZL4CME.jpg",
+        img: "https://pollitosbrasas.pe/wp-content/uploads/2022/07/pollo-papas-gaseosa1.jpg",
         nombre: "1 POLLO A LA BRASA",
         descripcion: "1 pollo a la brasa, papas fritas, ensalada y cremas",
         precio: 56
     },
     {
         id: 4,
-        img: "https://peru21.pe/resizer/wHwI08ga06qYXmP93jFEJwmGnf0=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/UM7KUSCNXFED7IRS6DKSZL4CME.jpg",
+        img: "https://pollitosbrasas.pe/wp-content/uploads/2022/07/pollo-papas-gaseosa1.jpg",
         nombre: "1 POLLO A LA BRASA",
         descripcion: "1 pollo a la brasa, papas fritas, ensalada y cremas",
         precio: 56
     },
     {
         id: 4,
-        img: "https://peru21.pe/resizer/wHwI08ga06qYXmP93jFEJwmGnf0=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/UM7KUSCNXFED7IRS6DKSZL4CME.jpg",
+        img: "https://pollitosbrasas.pe/wp-content/uploads/2022/07/pollo-papas-gaseosa1.jpg",
         nombre: "1 POLLO A LA BRASA",
         descripcion: "1 pollo a la brasa, papas fritas, ensalada y cremas",
         precio: 56
     },
     {
         id: 4,
-        img: "https://peru21.pe/resizer/wHwI08ga06qYXmP93jFEJwmGnf0=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/UM7KUSCNXFED7IRS6DKSZL4CME.jpg",
+        img: "https://pollitosbrasas.pe/wp-content/uploads/2022/07/pollo-papas-gaseosa1.jpg",
         nombre: "1 POLLO A LA BRASA",
         descripcion: "1 pollo a la brasa, papas fritas, ensalada y cremas",
         precio: 56
     },
     {
         id: 4,
-        img: "https://peru21.pe/resizer/wHwI08ga06qYXmP93jFEJwmGnf0=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/UM7KUSCNXFED7IRS6DKSZL4CME.jpg",
+        img: "https://pollitosbrasas.pe/wp-content/uploads/2022/07/pollo-papas-gaseosa1.jpg",
         nombre: "1 POLLO A LA BRASA",
         descripcion: "1 pollo a la brasa, papas fritas, ensalada y cremas",
         precio: 56
