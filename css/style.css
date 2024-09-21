@@ -124,7 +124,7 @@ main img {
 .producto {
   display: flex;
   gap: 10px;
-  width: 550px;
+  width: 580px;
   border: 1px solid rgba(81, 77, 77, 0.573);
   border-radius: 20px;
   background: #fff;
